@@ -30,9 +30,9 @@ const Forecast4D = () => {
               <tr>
                 <th>Day</th>
                 <th>Forecast</th>
-                <th>Humidity</th>
-                <th>Temperature</th>
-                <th>Wind</th>
+                <th>Humidity (%)</th>
+                <th>Temperature (Degrees C)</th>
+                <th>Wind (km/h)</th>
               </tr>
             </thead>
             <tbody>

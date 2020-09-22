@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import '../styles/DataTable.css';
 
-const Home = () => {
+const Forecast24H = () => {
   const [result, setResult] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -27,9 +27,9 @@ const Home = () => {
             <thead>
               <tr>
                 <th>Forecast</th>
-                <th>Humidity</th>
-                <th>Temperature</th>
-                <th>Wind</th>
+                <th>Humidity (%)</th>
+                <th>Temperature (Degrees C)</th>
+                <th>Wind (km/h)</th>
               </tr>
             </thead>
             <tbody>
@@ -46,4 +46,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Forecast24H

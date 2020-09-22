@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Forecast2H from './pages/Forecast2H';
 import Forecast4D from './pages/Forecast4D';
-import Home from './pages/Home'
+import Forecast24H from './pages/Forecast24H'
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Switch>
           <Route path='/forecast2h' component={Forecast2H} />
           <Route path='/forecast4d' component={Forecast4D} />
-          <Route path='/' component={Home} />
+          <Route path='/' component={Forecast24H} />
         </Switch>
       </BrowserRouter>
     </div>
